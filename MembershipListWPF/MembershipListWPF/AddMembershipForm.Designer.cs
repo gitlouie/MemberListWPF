@@ -103,6 +103,7 @@
             this.Cancel.TabIndex = 7;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // AddMembershipForm
             // 

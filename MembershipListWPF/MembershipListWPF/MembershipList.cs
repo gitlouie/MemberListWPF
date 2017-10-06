@@ -19,12 +19,28 @@ namespace MembershipListWPF
         public void Add(Member m)
         {
             memList.Add(m);
+            Write();
         }
 
         public void Remove(Member m)
         {
             memList.Remove(m);
         }
+
+
+        public void Write()
+        {
+            MembershipData d = new MembershipData();
+
+            memList = d.GetMembership();
+
+            
+            
+            
+
+        }
+
+
 
 
     }

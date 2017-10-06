@@ -32,7 +32,12 @@ namespace MembershipListWPF
         }
         private void BtnAdd(Object sender, RoutedEventArgs e)
         {
+            AddMembershipForm addForm = new AddMembershipForm();
+            addForm.Show();
+
+           
             
+
 
         }
         private void BtnDelete(Object sender, RoutedEventArgs e)
