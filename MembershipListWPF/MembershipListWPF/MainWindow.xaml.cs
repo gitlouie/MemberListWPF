@@ -24,5 +24,21 @@ namespace MembershipListWPF
         {
             InitializeComponent();
         }
+
+        private void BtnExit(Object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+
+        }
+        private void BtnAdd(Object sender, RoutedEventArgs e)
+        {
+            
+
+        }
+        private void BtnDelete(Object sender, RoutedEventArgs e)
+        {
+            
+
+        }
     }
 }
