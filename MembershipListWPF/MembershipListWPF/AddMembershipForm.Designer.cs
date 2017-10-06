@@ -94,6 +94,7 @@
             this.Save.TabIndex = 6;
             this.Save.Text = "Save";
             this.Save.UseVisualStyleBackColor = true;
+            this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // Cancel
             // 

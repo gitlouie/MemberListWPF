@@ -77,6 +77,7 @@
   <ItemGroup>
     <Compile Include="Member.cs" />
     <Compile Include="MembershipData.cs" />
+    <Compile Include="MembershipList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

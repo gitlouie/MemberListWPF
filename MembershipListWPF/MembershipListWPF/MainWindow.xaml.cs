@@ -35,14 +35,11 @@ namespace MembershipListWPF
             AddMembershipForm addForm = new AddMembershipForm();
             addForm.Show();
 
-           
-            
-
-
         }
         private void BtnDelete(Object sender, RoutedEventArgs e)
         {
-            
+            MembershipList m = new MembershipList();
+            m.Write();
 
         }
     }

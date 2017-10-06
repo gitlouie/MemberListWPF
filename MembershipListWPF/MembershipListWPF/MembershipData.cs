@@ -28,11 +28,21 @@ namespace MembershipListWPF
 
             }
 
-
-
-
             return members;
             
+        }
+
+        public void SaveMemberships(Member m)
+        {
+            String origText = m.GetDisplayText();
+            origText = origText.Replace(@" ", @"|"); 
+
+            using (System.IO.StreamWriter file =
+                new System.IO.StreamWriter(@"D:\Libraries\Desktop\c#\Members.txt", true))
+            {
+
+                file.WriteLine(origText);
+            }
         }
 
     }

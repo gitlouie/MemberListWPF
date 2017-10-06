@@ -22,6 +22,16 @@ namespace MembershipListWPF
             this.Close();
         }
 
+        private void Save_Click(object sender, EventArgs e)
+        {
+            MembershipList memList = new MembershipList();
+
+            Member m = new Member(FirstNameTextBox.Text, LastNameTextBox.Text, EmailTextBox.Text);
+
+            memList.Save(m);
+            this.Close();
+        }
+
 
     }
 }

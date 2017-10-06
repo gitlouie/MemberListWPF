@@ -19,7 +19,7 @@ namespace MembershipListWPF
         public void Add(Member m)
         {
             memList.Add(m);
-            Write();
+
         }
 
         public void Remove(Member m)
@@ -32,11 +32,15 @@ namespace MembershipListWPF
         {
             MembershipData d = new MembershipData();
 
-            memList = d.GetMembership();
+            memList = d.GetMemberships();
+            //MainWindow.MemTextBox = "";     
 
-            
-            
-            
+        }
+
+        public void Save(Member m)
+        {
+            MembershipData d = new MembershipData();
+            d.SaveMemberships(m);
 
         }
 

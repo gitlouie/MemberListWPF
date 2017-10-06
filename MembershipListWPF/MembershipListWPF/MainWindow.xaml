@@ -6,7 +6,7 @@
         <Button x:Name="Add" Click="BtnAdd" Content="Add" HorizontalAlignment="Left" Margin="418,81,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="Delete" Click="BtnDelete" Content="Delete" HorizontalAlignment="Left" Margin="418,127,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="Exit"  Click="BtnExit" Content="Exit" HorizontalAlignment="Left" Margin="418,172,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="MemTextBox" HorizontalAlignment="Left" Height="175" Margin="44,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="344"/>
+        <TextBox x:Name="MemTextBox" x:FieldModifier="public" HorizontalAlignment="Left" Height="175" Margin="44,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="344"/>
         <Label Content="Customers" HorizontalAlignment="Left" Margin="44,38,0,0" VerticalAlignment="Top" Width="93" />
 
     </Grid>
